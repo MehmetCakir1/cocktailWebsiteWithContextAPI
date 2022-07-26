@@ -5,6 +5,7 @@ import Card from './Card';
 const Main = () => {
   const { cocktails } = useDataContext();
   // console.log(cocktails.length)
+
   return (
     <div className='mt-2'>
       <h2 className='text-center text-danger'>COCKTAILS</h2>
