@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  width: 150px;
+  height: 120px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo img{
+  width: 100%;
+  height: 80%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form{
+  width: 70%;
+  max-width: 500px;
+  margin-top: -40px !important;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.search{
+  width: 90%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.search:focus{
+  border: 2px solid rgb(140, 140, 172);
+  outline: 2px solid rgb(133, 133, 196);
+}
+.imgDiv img{
+  width: 100%;
+  object-fit: cover;
+}
+.alcohol{
+  color: rgba(0,0,0,0.5);
+}
+.cardDiv{
+  max-width: 275px;
+}
+.detailImgDiv{
+  width: 30%;
+  min-width: 250px;
+}
+.detailImgDiv img{
+  width: 100%;
+}
+table{
+  width: 90%;
+}
+table tr td:first-child{
+  width: 30%;
+}
+.about{
+  max-width: 600px;
+}
+@media (min-width:577px) {
+  .logo img{
+height: 100%;
   }
 }
